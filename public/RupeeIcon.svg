@@ -1,0 +1,34 @@
+
+ <svg width="8" height="21" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="8" height="12" fill="#F0F0F0"/>
+<g id="Screen-2" clip-path="url(#clip0_0_1)">
+<rect width="360" height="800" transform="translate(-276 -434)" fill="#FAFAFA"/>
+<g id="Card" filter="url(#filter0_d_0_1)">
+<rect x="-253" y="-63" width="315" height="104" rx="12" fill="white"/>
+<rect x="-252.5" y="-62.5" width="314" height="103" rx="11.5" stroke="#1EC089"/>
+</g>
+<g id="Price">
+<g id="&#240;&#159;&#166;&#134; icon &#34;Indian Rupee Sign&#34;">
+<path id="Vector" d="M7.7 1.6C7.86567 1.6 8 1.46567 8 1.3V0.3C8 0.134325 7.86567 0 7.7 0H0.3C0.134325 0 0 0.134325 0 0.3V1.4187C0 1.58437 0.134325 1.7187 0.3 1.7187H2.432C3.1147 1.7187 3.63853 1.96765 3.95625 2.4H0.3C0.134325 2.4 0 2.53432 0 2.7V3.7C0 3.86567 0.134325 4 0.3 4H4.26893C4.1135 4.90215 3.4449 5.4658 2.4 5.4658H0.3C0.134325 5.4658 0 5.60012 0 5.7658V7.0911C0 7.17482 0.035 7.25475 0.096525 7.31155L4.22283 11.1204C4.27824 11.1716 4.35089 11.2 4.4263 11.2H6.49035C6.76345 11.2 6.8945 10.8648 6.69382 10.6795L2.92178 7.19765C4.83425 7.13915 6.20038 5.86277 6.37972 4H7.7C7.86567 4 8 3.86567 8 3.7V2.7C8 2.53432 7.86567 2.4 7.7 2.4H6.23275C6.1456 2.11147 6.02575 1.84385 5.87645 1.6H7.7Z" fill="#FF7865"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-265" y="-75" width="347" height="136" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="4" dy="4"/>
+<feGaussianBlur stdDeviation="8"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0705882 0 0 0 0 0.0705882 0 0 0 0 0.0705882 0 0 0 0.04 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="360" height="800" fill="white" transform="translate(-276 -434)"/>
+</clipPath>
+</defs>
+</svg>
+
+ 
+  

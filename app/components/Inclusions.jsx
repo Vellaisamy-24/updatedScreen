@@ -1,12 +1,5 @@
 import Image from "next/image"
-import carIcon from "../public/carAutomative.svg"
-import drinkIcon from "../public/Drink.svg"
-import foodRestaurantIcon from "../public/food-restaurant-icon 1.svg"
-import islandIcon from "../public/island-icon 1.svg"
-import childstayIcon from "../public/Child-stay-free.svg"
-import filtersalahIcon from "../public/Filters Salah.svg"
-import secureIcon from "../public/secure-icon 1.svg"
-import kidsIcon from "../public/Kids-icon.svg"
+
 export default function Inclusion()
 {
     return(
@@ -19,18 +12,18 @@ export default function Inclusion()
             <div className="flex flex-row ">
                 <div className="pl-8 pt-19 ms:pl-[43px]">
 
-                    <Image src={carIcon} alt="" className="ms:w-[30px] ms:h-[30px] " />
+                    <Image src="/carAutomative.svg" alt="carAutomative" className="ms:w-[30px] ms:h-[30px] " width={28} height={28} />
                 </div>
                 <div className="pt-4 pl-59 ">
                     
-                <Image src={drinkIcon} alt="" className="ms:w-[30px] ms:h-[30px] "/>
+                <Image src="/Drink.svg" alt="Drink" className="ms:w-[30px] ms:h-[30px] " width={28} height={28}/>
 
                 </div>
                 <div className="pt-4 pl-[54px]">
-                    <Image src={foodRestaurantIcon} alt="" className="ms:w-[30px] ms:h-[30px] " />
+                    <Image src="/food-restaurant-icon 1.svg" alt="food" className="ms:w-[30px] ms:h-[30px] "  width={30} height={28}/>
                 </div>
                 <div className="pt-4 pl-37.14">
-                    <Image src={islandIcon} alt="" className="ms:w-[40px] ms:h-[30px] ms:ml-[10px] "/>
+                    <Image src="/island-icon 1.svg" alt="island" className="ms:w-[40px] ms:h-[30px] ms:ml-[10px] " width={37} height={28}/>
                 </div>
                 </div>
                 <div className="flex flex-row ">
@@ -51,18 +44,18 @@ export default function Inclusion()
                 </div>
                 <div className="flex flex-row">
                     <div className="pl-[65px] pt-17.1">
-<Image src={filtersalahIcon} alt=""/>
+<Image src="/Filters Salah.svg" alt="Filters" width={27} height={10}/>
                     </div>
                     <div className="pl-[70px]  pt-4">
-<Image src={childstayIcon} alt=""/>
+<Image src="/Child-stay-free.svg" alt="Child" width={20} height={10}/>
                     </div>
                     </div>
                     <div className=" flex flex-row">
                     <div className="pl-[45px] pt-0">
-                        <Image src={secureIcon} className="ms:w-[30px]" alt=""/>
+                        <Image src="/secure-icon 1.svg" className="ms:w-[30px]" alt="secure" width={25} height={28}/>
                     </div>
                     <div className="pl-[52px] pt-0">
-                        <Image src={kidsIcon} alt=""  />
+                        <Image src="/Kids-icon.svg" alt="Kids" width={36} height={28} />
                    </div>
                     </div>
                     <div className="flex flex-row ms:ml-[10px]">

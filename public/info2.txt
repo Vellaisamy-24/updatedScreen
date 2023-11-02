@@ -1,0 +1,161 @@
+"use client"
+
+export default function Packages() {
+  return (
+    <>
+      <div className="flex flex-col items-center w-269 h-24 flex-shrink-0 text-red-600 font-montserrat text-base font-normal leading-6">
+        List of Packages
+      </div>
+      <div className=" w-295 h-22 flex-shrink-0 bg-gradient-to-b from-teal-500 to-teal-600 rounded-tl-xl rounded-tr-xl mx-3">
+  <div className="text-white text-center font-montserrat text-xs font-normal leading-8 tracking-wider  ">
+    Manali - Honeymoon - Platinum Package
+  </div>
+</div>
+
+
+
+
+
+      {/*Total Box */}
+   <div className="flex w-315 h-110 p-12 items-center gap-16 flex-shrink-0 rounded-lg border border-solid border-custom-green bg-white shadow-md">
+             
+
+        <div>
+             <div  style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.50) 21.35%, rgba(0, 0, 0, 0.10) 69.79%), url(/hotel.jpg)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundColor: 'lightgray',width:"105px",height:"110px", marginLeft:"-45px",marginTop:"-47px"}}>
+          
+             </div>
+            
+             
+</div>
+
+
+      
+              
+                            <div className="flex flex-col w-full -ml-14 -mt-11 ">
+
+                            <div className="w-64 text-custom-green font-ibm-plex-sans text-base font-normal leading-6 tracking-wide ">
+  enchanting manali 6 day-himalayan
+</div>
+
+
+
+
+
+                          <div className="mt-2 w-64 ">
+                                    <span className=" text-red-600 font-ibm-plex-sans text-xs font-normal leading-18 tracking-tighter uppercase ">3N</span>
+                                    <span className="text-gray-300 font-ibm-plex-sans text-xs font-normal leading-18 tracking-tighter uppercase pl-1 ">- Manali</span>
+                                    <span className="text-gray-300 font-ibm-plex-sans text-xs font-normal leading-6 sm:text-base sm:leading-8 md:leading-18 tracking-tighter uppercase mr-2 ml-2">|</span>
+                                    <span className="text-red-600 font-ibm-plex-sans text-xs font-normal leading-18 tracking-tighter uppercase">2N</span>
+                                    <span className="text-gray-300 font-ibm-plex-sans text-xs font-normal leading-18 tracking-tighter uppercase pl-1">- Shimla</span>
+                          </div>
+
+
+                             <div className="flex mt-2"> 
+                                                                  <span className="mr-8 ml-3">
+                                                                  <svg width="14" height="21" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75265 2.42268C1.22125 5.39955 1.08188 9.65375 1.38588 12.4119C1.43944 12.8978 1.8583 13.25 2.34714 13.25H11.6529C12.1417 13.25 12.5606 12.8978 12.6141 12.4119C12.9182 9.65375 12.7788 5.39955 12.2474 2.42268C12.1176 1.69555 11.5503 1.14515 10.819 1.04162C9.78364 0.895044 8.31931 0.75 7.00002 0.75C5.68073 0.75 4.21639 0.895044 3.18108 1.04162C2.44975 1.14515 1.88244 1.69555 1.75265 2.42268Z" fill="#33D69F" fill-opacity="0.15" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.5 7.5H9.5" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.5 11.5V13.25H8.5V11.5C8.5 10.6716 7.82843 10 7 10C6.17157 10 5.5 10.6716 5.5 11.5Z" fill="white" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.5 4.5H5.5" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.5 4.5H9.5" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.5 7.5H5.5" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+                                                                     </span>
+
+                                                                     <span className="mr-8 ml-2"> 
+                                                                     <svg width="14" height="21" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.918488 1.0318V4.17584C0.918488 5.50478 1.9958 6.58209 3.32474 6.58209V6.58209C4.65367 6.58209 5.73099 5.50478 5.73099 4.17584V1.0318" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.32474 0.922424V13.1625" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.6372 6.58209L10.6372 13.1625" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.6372 6.58209C12.2016 6.58209 13.0815 5.54807 13.0815 3.70981C13.0815 1.87155 12.2016 0.837524 10.6372 0.837524C9.0729 0.837524 8.19296 1.87155 8.19296 3.70981C8.19296 5.54807 9.0729 6.58209 10.6372 6.58209Z" fill="#33D69F" fill-opacity="0.15" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+                                                                           </span>
+
+
+                                                                          <span className="mr-8 ml-1">
+                                                                          <svg width="14" height="21" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.9664 6.25436C10.9277 5.49752 10.7086 4.76331 10.3377 4.05735C10.2098 3.81402 9.97292 3.64933 9.70341 3.59526C8.79399 3.41282 8.09761 3.32388 6.98689 3.32388C5.87814 3.32388 5.15029 3.41251 4.28012 3.59429C4.02043 3.64854 3.79215 3.80705 3.66686 4.04089C3.29666 4.73181 3.0767 5.47784 3.03509 6.23387C2.67862 6.3107 2.31887 6.39501 1.95263 6.48516C1.58711 6.57514 1.30497 6.86624 1.2053 7.22923C1.2 7.24856 1.19468 7.26791 1.18935 7.28729C1.04345 7.81788 0.892212 8.36791 0.892212 8.93162C0.892212 9.46185 1.02602 9.97997 1.16332 10.4812C1.28348 10.9198 1.67447 11.2398 2.12882 11.2599C2.4321 11.2734 2.73822 11.2879 3.04699 11.3025C4.32369 11.3629 5.64575 11.4255 6.99997 11.4255C8.35418 11.4255 9.67624 11.3629 10.9529 11.3025C11.2617 11.2879 11.5678 11.2734 11.8711 11.2599C12.3255 11.2398 12.7164 10.9198 12.8366 10.4812C12.9739 9.97997 13.1077 9.46185 13.1077 8.93162C13.1077 8.36791 12.9565 7.81788 12.8106 7.2873C12.8065 7.2725 12.8025 7.25772 12.7984 7.24296C12.6967 6.87284 12.4051 6.57872 12.0312 6.49207C11.6792 6.41053 11.3243 6.33017 10.9664 6.25436Z" fill="#33D69F" fill-opacity="0.15" stroke="#1EC089" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M4.17902 12.4773C5.03371 12.4773 5.72657 11.7844 5.72657 10.9298C5.72657 10.0751 5.03371 9.3822 4.17902 9.3822C3.32433 9.3822 2.63147 10.0751 2.63147 10.9298C2.63147 11.7844 3.32433 12.4773 4.17902 12.4773Z" fill="#33D69F" fill-opacity="0.15" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.82111 12.4773C10.6758 12.4773 11.3687 11.7844 11.3687 10.9298C11.3687 10.0751 10.6758 9.3822 9.82111 9.3822C8.96642 9.3822 8.27356 10.0751 8.27356 10.9298C8.27356 11.7844 8.96642 12.4773 9.82111 12.4773Z" fill="#33D69F" fill-opacity="0.15" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7.00012 1.52271L7.00012 3.32389" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                                                                               </span>
+
+                                                                   
+                                                                              
+                                                                              <span className=" ml-1 mr-1"> 
+                                                                              <svg width="8" height="21" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="8" height="12" fill="#F0F0F0"/>
+<g id="Screen-2" clip-path="url(#clip0_0_1)">
+<rect width="360" height="800" transform="translate(-276 -434)" fill="#FAFAFA"/>
+<g id="Card" filter="url(#filter0_d_0_1)">
+<rect x="-253" y="-63" width="315" height="104" rx="12" fill="white"/>
+<rect x="-252.5" y="-62.5" width="314" height="103" rx="11.5" stroke="#1EC089"/>
+</g>
+<g id="Price">
+<g id="&#240;&#159;&#166;&#134; icon &#34;Indian Rupee Sign&#34;">
+<path id="Vector" d="M7.7 1.6C7.86567 1.6 8 1.46567 8 1.3V0.3C8 0.134325 7.86567 0 7.7 0H0.3C0.134325 0 0 0.134325 0 0.3V1.4187C0 1.58437 0.134325 1.7187 0.3 1.7187H2.432C3.1147 1.7187 3.63853 1.96765 3.95625 2.4H0.3C0.134325 2.4 0 2.53432 0 2.7V3.7C0 3.86567 0.134325 4 0.3 4H4.26893C4.1135 4.90215 3.4449 5.4658 2.4 5.4658H0.3C0.134325 5.4658 0 5.60012 0 5.7658V7.0911C0 7.17482 0.035 7.25475 0.096525 7.31155L4.22283 11.1204C4.27824 11.1716 4.35089 11.2 4.4263 11.2H6.49035C6.76345 11.2 6.8945 10.8648 6.69382 10.6795L2.92178 7.19765C4.83425 7.13915 6.20038 5.86277 6.37972 4H7.7C7.86567 4 8 3.86567 8 3.7V2.7C8 2.53432 7.86567 2.4 7.7 2.4H6.23275C6.1456 2.11147 6.02575 1.84385 5.87645 1.6H7.7Z" fill="#FF7865"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-265" y="-75" width="347" height="136" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="4" dy="4"/>
+<feGaussianBlur stdDeviation="8"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0705882 0 0 0 0 0.0705882 0 0 0 0 0.0705882 0 0 0 0.04 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="360" height="800" fill="white" transform="translate(-276 -434)"/>
+</clipPath>
+</defs>
+</svg>
+</span>
+<span className=" text-custom-orange font-montserrat text-base font-semibold leading-7 tracking-wide" style={{ fontSize: "14px", lineHeight:" 135%", letterSpacing:" 0.42px"}}>8,999</span>
+                                                                                
+                                                                                
+                                                                   
+                                                                       
+                                                                     
+
+
+
+
+
+
+                                   </div>
+                                   <div className="w-64 ">
+                                   <span className=" mr-4 text-custom-green font-montserrat text-xs font-normal leading-6">2Hotel</span>
+                                   <span className="mr-4 text-custom-green font-montserrat text-xs font-normal leading-6">3 Meals</span>
+                                   <span className="mr-4 text-custom-green font-montserrat text-xs font-normal leading-6">1 Cab</span>
+                                   <span className="ml-2 text-right font-montserrat text-xs font-light leading-8 tracking-wider" style={{color: "#BBE0E0", lineHeight: "135%"}}>Per Person</span>
+
+                                   </div>
+
+                                      
+                                     
+                              </div>
+                         
+
+
+
+
+        
+
+
+
+
+
+
+
+     
+      </div>
+    </>
+  );
+}

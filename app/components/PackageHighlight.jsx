@@ -1,12 +1,6 @@
 
 import Image from "next/image"
-import hotel from "../public/hotel.svg";
-import grillIcon from "../public/grillIcon.svg";
-import cartaxiIcon from "../public/cartaxiIcon.svg";
-import HumanIcon from "../public/Human-multiple-person-up-user.svg"
-import LocationIcon from "../public/Location.svg"
-import TimeIcon from "../public/Duration-icon.svg"
-import Group_107 from "../public/Group_107.svg"
+
 
 export default function PackageHighligh()
 {
@@ -21,7 +15,7 @@ export default function PackageHighligh()
         </div>
         
       <div className="pl-[210px]">
-        <Image src={Group_107} alt=""/>
+        <Image src="/Group_107.svg" alt="Group_107" width={40} height={40}/>
       </div>
     </div>
      
@@ -32,7 +26,7 @@ export default function PackageHighligh()
         </div>
         <div className="flex flex-row ms:py-[5px]">
           <div className="pl-22 pt-4">
-  <Image src={LocationIcon} alt="" />
+  <Image src="/Location.svg" alt="Location" width={32} height={33} />
  </div>
           <div className="pl-3 pr-1 text-xs font-ibm-plex-sans text-custom-orange not-italic font-semibold leading-18 tracking-0.24 capitalize pt-22">3N</div>
           <div className=" text-xs  font-ibm-plex-sans not-italic font-semibold leading-18 tracking-0.24 capitalize text-gray-3 pt-22 ">- Manali</div>
@@ -42,11 +36,11 @@ export default function PackageHighligh()
         </div>
         <div className="flex flex-row ms:py-[5px]">
           <div className="pl-22 pt-11.97">
-<Image src={TimeIcon} alt="" />
+<Image src="/Duration-icon.svg" alt="Duration" width={32} height={32} />
           </div>
           <div className="font-ibm-plex-sans text-xs not-italic font-medium leading-normal pl-3 pt-5  text-linear-green-2 ">5N/ 6D</div>
           <div className="ml-8 mt-3 rounded-lg bg-custom-gray w-8 h-8 " >
-            <div className="p-2 ">    <Image src={HumanIcon} alt=""/></div>
+            <div className="p-2 ">    <Image src="/Human-multiple-person-up-user.svg" alt="Human-multiple" width={16} height={16}/></div>
 
 
           </div>
@@ -54,7 +48,7 @@ export default function PackageHighligh()
     </div>
         <div className="flex flex-row ms:py-[5px] ">
                  <div className="pl-22 pt-3">
-                         <Image src={hotel} alt=""/>
+                         <Image src="/hotel.svg" alt="hotel" width={32} height={33}/>
                    </div>
           
             <div className=" text-linear-green-2 font-ibm-plex-sans text-xs not-italic leading-135 font-medium pt-5 pl-3 ">
@@ -65,13 +59,13 @@ export default function PackageHighligh()
           <div className="  rounded-lg bg-custom-gray w-8 h-32.027 mt-3 ml-7 ">
 
                  <div className=" p-2 "> 
-                    <Image src={grillIcon} alt=""/>
+                    <Image src="/grillIcon.svg" alt="grillIcon" width={16} height={16}/>
                  </div>
             </div> 
             <div className="pt-5 pl-3 text-linear-green-2 font-ibm-plex-sans font-medium leading-135 not-italic text-xs ">3 Meals
           </div>
           <div className="pl-31 pt-3">
-          <Image src={cartaxiIcon} alt=""/>
+          <Image src="/cartaxiIcon.svg" alt="cartaxiIcon" width={32} height={33}/>
             
           </div>
           <div className=" pl-3 pt-5 font-ibm-plex-sans text-xs not-italic font-medium leading-13 text-linear-green-2 ">
