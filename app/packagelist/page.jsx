@@ -19,6 +19,8 @@ export default function Packagelist() {
       hotel2: '2N - Ashiana Clarks Inn, Shimla',
       hotel2Rating: '3.5',
       hotel2View: 'Snow View',
+      oldPrice:'22,000',
+      newPrice:'19,558',
     },
     {
       packageName: 'Manali',
@@ -32,6 +34,8 @@ export default function Packagelist() {
       hotel2: '2N - Ashiana Clarks Inn, Shimla',
       hotel2Rating: '3.5',
       hotel2View: 'Mountain View',
+      oldPrice:'25,000',
+      newPrice:'20,000',
     },
   ]);
 

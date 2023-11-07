@@ -12,7 +12,7 @@ export default function Hotels() {
         <div>
           <div className="flex flex-row items-center">
             <p className="text-neutral-400 text-xs font-normal pl-4 pr-5 font-ibmplexsans">{hotel1}</p>
-            <p className="h-3.5 w-14 border-mountborder border-2 rounded text-mountsize font-Poppins font-medium text-center leading-3 text-mountcolor">{hotel1View}</p>
+            <p className="h-3.5 w-16 border-mountborder border-2 rounded text-mountsize font-Poppins font-medium text-center leading-3 text-mountcolor">{hotel1View}</p>
           </div>
           <div className="pl-4 flex flex-row pt-0.5">
             <Image src="/StarRating.svg" alt=" StarRating" className="pr-[2px] w-[15px] pt-1 h-[30px] " width={19} height={18} />
