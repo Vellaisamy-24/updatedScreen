@@ -1,13 +1,11 @@
+"use client"
+import { useContext } from "react";
+import { DescriptionContext } from "../packagelist/page";
 import Image from "next/image";
-import PackageHighlight from './PackageHighlight';
-import Hotels from './Hotels'
-import Hotels2 from './Hotels2'
-import Inclusions from "./Inclusions"
-import Pack from "./Pack"
-import Booking from "./Booking"
-import Footer from "./Footer"
+
 
 export default function Topbar() {
+  const {packageName } = useContext(DescriptionContext);
   return (
     <div className='relative'>
       <div class="w-full sm:w-screen h-auto bg-backgroundColor rounded-36 sm2:w-[360px]">
@@ -25,18 +23,10 @@ export default function Topbar() {
             </div>
           </div>
           <div class="mt-32 pl-5 text-white w-283 h-54 font-montserrat not-italic font-normal leading-normal text-22" style={{ letterSpacing: "-0.99px" }}>
-            Enchanting Manali - 4 Days Himalayan Getaway
+          { packageName }
           </div>
         </div>
-        <div className='w-full sm:w-screen absolute top-[280px] bg-backgroundColor rounded-[36px] flex flex-col items-center sm2:w-[360px]'>
-        <PackageHighlight />
-    <Hotels />
-    <Hotels2 />
-    <Inclusions />
-    <Pack />
-    <Booking />
-    <Footer />
-        </div>
+  
       </div>
     </div>
   );

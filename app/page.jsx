@@ -1,7 +1,8 @@
-import Screen3 from "./components/Screen3";
+"use client"
+import Packagelist from "./packagelist/page";
 export default function Home() {
   return <>
-  <Screen3 />
+  <Packagelist />
 
   </>;
 }

@@ -1,9 +1,12 @@
-
+"use client"
+import { useContext } from "react";
+import { DescriptionContext } from "../packagelist/page";
 import Image from "next/image"
 
 
 export default function PackageHighligh()
 {
+  const {duration1,duration2,duration1Place,duration2Place } = useContext(DescriptionContext);
   return(
     <>
     <div className="">
@@ -28,11 +31,11 @@ export default function PackageHighligh()
           <div className="pl-22 pt-4">
   <Image src="/Location.svg" alt="Location" width={32} height={33} />
  </div>
-          <div className="pl-3 pr-1 text-xs font-ibm-plex-sans text-custom-orange not-italic font-semibold leading-18 tracking-0.24 capitalize pt-22">3N</div>
-          <div className=" text-xs  font-ibm-plex-sans not-italic font-semibold leading-18 tracking-0.24 capitalize text-gray-3 pt-22 ">- Manali</div>
+          <div className="pl-3 pr-1 text-xs font-ibm-plex-sans text-custom-orange not-italic font-semibold leading-18 tracking-0.24 capitalize pt-22">{duration1}</div>
+          <div className=" text-xs  font-ibm-plex-sans not-italic font-semibold leading-18 tracking-0.24 capitalize text-gray-3 pt-22 ">- {duration1Place}</div>
           <div className="pl-2 font-ibm-plex-sans text-gray-3 text-xs not-italic font-semibold leading-18 tracking-0.24 capitalize pt-22 ">|</div>
-          <div className="pl-2 pr-1 text-custom-orange font-ibm-plex-sans text-xs not-italic font-semibold leading-18 tracking-0.24 capitalize  pt-22">2N </div>
-          <div className="text-gray-3 font-ibm-plex-sans text-xs not-italic font-semibold leading-18  tracking-0.24 capitalize pt-22 ">- Shimla</div>
+          <div className="pl-2 pr-1 text-custom-orange font-ibm-plex-sans text-xs not-italic font-semibold leading-18 tracking-0.24 capitalize  pt-22">{duration2} </div>
+          <div className="text-gray-3 font-ibm-plex-sans text-xs not-italic font-semibold leading-18  tracking-0.24 capitalize pt-22 ">- {duration2Place}</div>
         </div>
         <div className="flex flex-row ms:py-[5px]">
           <div className="pl-22 pt-11.97">
