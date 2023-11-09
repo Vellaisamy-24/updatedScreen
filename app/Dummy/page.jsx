@@ -1,9 +1,14 @@
 import Image from 'next/image';
 export default function Dummy() {
     return (
-      <div>
         <div>
-          <div className="mt-[20px] ml-[15px] w-[320px] bg-bookingbg font-montserrat not-italic leading-[33px] tracking-[0.36px] font-normal text-[15px] text-white text-center h-[22px] rounded-tl-[15px] rounded-tr-[15px] bg-red-200">
+            <div className='sm:flex justify-center text-custom-orange font-montserrat text-[20px]  not-italic font-normal leading-[24px] '>
+            List of Packages
+            </div>
+
+      <div className='flex justify-center'>
+        <div >
+          <div className="mt-[20px] ml-[15px] w-[320px] bg-bookingbg font-montserrat not-italic leading-[28px] tracking-[0.36px] font-normal text-[15px] text-white text-center h-[22px] rounded-tl-[15px] rounded-tr-[15px] bg-red-200">
             Manali - Honeymoon - Platinum Package
           </div>
           <div className="rounded-[12px] bg-white border border-custom-green border-solid border-[1px] w-[350px] h-[130px] p-[10px] gap-4 items-center flex shrink-0">
@@ -45,6 +50,7 @@ export default function Dummy() {
        
           </div>
         </div>
+      </div>
       </div>
     );
   }
