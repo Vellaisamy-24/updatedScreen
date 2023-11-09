@@ -29,6 +29,9 @@ module.exports = {
         'bookingticket':'#FF7865',
         'backgroundColor':"#fafafa",
         'snowcolor':'#FF7865;',
+        'custom-gray':'#828282',
+        'custom-person':'#BBE0E0',
+        
         
         
       },

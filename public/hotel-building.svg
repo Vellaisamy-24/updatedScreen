@@ -1,0 +1,37 @@
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="14" height="14" fill="#F0F0F0"/>
+<g id="Screen-2" clip-path="url(#clip0_0_1)">
+<rect width="360" height="800" transform="translate(-134 -571)" fill="#FAFAFA"/>
+<g id="Card2" filter="url(#filter0_d_0_1)">
+<rect x="-111" y="-61" width="315" height="104" rx="12" fill="white"/>
+<rect x="-110.5" y="-60.5" width="314" height="103" rx="11.5" stroke="#1EC089"/>
+</g>
+<g id="List-CardLayout-2">
+<g id="Bottom-Icon-Card">
+<g id="shopping-store-factory-building--production-store-shop-shops-stores-shopping-factory-building">
+<path id="Vector 218" d="M1.75265 2.42268C1.22125 5.39955 1.08188 9.65375 1.38588 12.4119C1.43944 12.8978 1.8583 13.25 2.34714 13.25H11.6529C12.1417 13.25 12.5606 12.8978 12.6141 12.4119C12.9182 9.65375 12.7788 5.39955 12.2474 2.42268C12.1176 1.69555 11.5503 1.14515 10.819 1.04162C9.78364 0.895044 8.31931 0.75 7.00002 0.75C5.68073 0.75 4.21639 0.895044 3.18108 1.04162C2.44975 1.14515 1.88244 1.69555 1.75265 2.42268Z" fill="#33D69F" fill-opacity="0.15" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 219" d="M8.5 7.5H9.5" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 220" d="M5.5 11.5V13.25H8.5V11.5C8.5 10.6716 7.82843 10 7 10C6.17157 10 5.5 10.6716 5.5 11.5Z" fill="white" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 221" d="M4.5 4.5H5.5" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 222" d="M8.5 4.5H9.5" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 223" d="M4.5 7.5H5.5" stroke="#1EC089" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-123" y="-73" width="347" height="136" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="4" dy="4"/>
+<feGaussianBlur stdDeviation="8"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0705882 0 0 0 0 0.0705882 0 0 0 0 0.0705882 0 0 0 0.04 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="360" height="800" fill="white" transform="translate(-134 -571)"/>
+</clipPath>
+</defs>
+</svg>
