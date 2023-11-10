@@ -9,7 +9,7 @@ export default function Packagelist() {
   const [details, setDetails] = useState([
     {
       packageName: 'Enchanting Manali',
-      
+      duration:'5N/6D',
       duration1: '3N',
       duration2: '2N',
       duration1Place: 'Manali',
@@ -25,6 +25,7 @@ export default function Packagelist() {
     },
     {
       packageName: 'Manali',
+      duration:'2N/3D',
       duration1: '2N',
       duration2: '3D',
       duration1Place: 'Shimla',
@@ -70,15 +71,16 @@ export default function Packagelist() {
           </div>
           <div className="rounded-[12px] bg-white border border-custom-green border-solid border-[1px] w-[350px] h-[130px] p-[10px] gap-4 items-center flex shrink-0">
               <div className='flex'>
-                           <div>
+                           <div className='relative'>
+                                <p className='bg-[#FF7865] p-0 w-[60px] text-white  text-sm rounded-[5px] absolute right-0'>{item.duration}</p>
                                <Image className='rounded-[6px] ' src="/hotel.jpg" alt="pin" width={100} height={90} />
                            </div>
                      <div>
                           <div className='pl-[8px] text-custom-green font-ibmplex text-[14px] not-italic font-normal leading-[18px] tracking-[0.24px] capitalize '>
                           enchanting manali 6 day-himalayan 
                           </div>
-                          <div className='mt-[11.5px]'>
-                            <span className=' text-custom-orange font-ibmplex text-[12px] font-normal not-italic leading-[18px] tracking-[0.2px] capitalize'>{item.duration1}</span>
+                          <div className='mt-[11.5px] pl-[10px] flex flex-start'>
+                            <span className='p-[0px] text-custom-orange font-ibmplex text-[12px] font-normal not-italic leading-[18px] tracking-[0.2px] capitalize'>{item.duration1}</span>
                             <span className='pl-[4px] text-custom-gray font-ibmplex text-[12px] font-normal not-italic leading-[18px] tracking-[0.2px] capitalize'>- {item.duration1Place} </span>
                             <span className='pl-[3px] pr-[3px] text-custom-gray font-ibmplex text-[12px] font-normal not-italic leading-[18px] tracking-[0.2px] capitalize '>|</span>
                             <span className='pl-[4px] text-custom-orange font-ibmplex text-[12px] font-normal not-italic leading-[18px] tracking-[0.2px] capitalize'>{item.duration2}</span>

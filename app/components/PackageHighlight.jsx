@@ -42,7 +42,7 @@ export default function PackageHighligh()
 <Image src="/Duration-icon.svg" alt="Duration" width={32} height={32} />
           </div>
           <div className="font-ibm-plex-sans text-xs not-italic font-medium leading-normal pl-3 pt-5  text-linear-green-2 ">5N/ 6D</div>
-          <div className="ml-8 mt-3 rounded-lg bg-custom-gray w-8 h-8 " >
+          <div className="ml-8 mt-3 rounded-lg bg-[#F0F0F0] w-8 h-8 " >
             <div className="p-2 ">    <Image src="/Human-multiple-person-up-user.svg" alt="Human-multiple" width={16} height={16}/></div>
 
 
@@ -59,7 +59,7 @@ export default function PackageHighligh()
 
             </div>
        
-          <div className="  rounded-lg bg-custom-gray w-8 h-32.027 mt-3 ml-7 ">
+          <div className="  rounded-lg bg-[#F0F0F0] w-8 h-32.027 mt-3 ml-7 ">
 
                  <div className=" p-2 "> 
                     <Image src="/grillIcon.svg" alt="grillIcon" width={16} height={16}/>
