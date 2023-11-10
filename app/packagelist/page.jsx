@@ -63,8 +63,8 @@ export default function Packagelist() {
               <div >
            
 
-      <div className='flex justify-center '>
-        <div  >
+      <div className='flex justify-center  '>
+        <div className='' >
           <div className="mt-[20px] ml-[15px] w-[320px] bg-bookingbg font-montserrat not-italic leading-[28px] tracking-[0.36px] font-normal text-[15px] text-white text-center h-[22px] rounded-tl-[15px] rounded-tr-[15px] bg-red-200">
           {item.packageName}
           </div>
