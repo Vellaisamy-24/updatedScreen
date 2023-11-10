@@ -56,15 +56,15 @@ export default function Packagelist() {
        
       {!isButtonClicked &&
         details.map((item, index) => (
-          <div key={index}>
+          <div key={index} className='flex justify-center'>
            
             <button onClick={() => handleClick(item.packageName)}>
              
-              <div >
+          
            
 
-      <div className='flex justify-center  '>
-        <div className='' >
+      <div >
+        <div>
           <div className="mt-[20px] ml-[15px] w-[320px] bg-bookingbg font-montserrat not-italic leading-[28px] tracking-[0.36px] font-normal text-[15px] text-white text-center h-[22px] rounded-tl-[15px] rounded-tr-[15px] bg-red-200">
           {item.packageName}
           </div>
@@ -73,7 +73,7 @@ export default function Packagelist() {
                            <div>
                                <Image className='rounded-[6px] ' src="/hotel.jpg" alt="pin" width={100} height={90} />
                            </div>
-                     <div className=''>
+                     <div>
                           <div className='pl-[8px] text-custom-green font-ibmplex text-[14px] not-italic font-normal leading-[18px] tracking-[0.24px] capitalize '>
                           enchanting manali 6 day-himalayan 
                           </div>
@@ -98,8 +98,8 @@ export default function Packagelist() {
                             <span className=' pl-[15px] font-montserrat text-[10px] ml-[8px] not-italic font-normal leading-[10.8px] text-custom-green '>1 Cab</span>
                           </div>
                           <div className='grid'>
-                            <span className='ml-[20px] text-custom-orange'>&#8377; 5,333</span>
-                            <span className='pl-[35px] text-custom-person font-montserrat not-italic font-light leading-[10.8px] text-[8px] '>Per Person</span>
+                            <span className='ml-[22px] text-custom-orange'>&#8377;{item.newPrice}</span>
+                            <span className='pl-[30px] text-custom-person font-montserrat not-italic font-light leading-[10.8px] text-[8px] '>Per Person</span>
                           </div>
                           </div>
                      </div>
@@ -108,7 +108,7 @@ export default function Packagelist() {
           </div>
         </div>
       </div>
-      </div>
+    
               
               
               
